@@ -1,0 +1,202 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    background-color: #0f0a0a71;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    padding-left: 16px;
+}
+.navbar a{
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+    padding-right: 40px;
+}
+.navbar a:hover{
+    color: red;
+}
+.bg-home{
+    background-color: #0d0c0ce3;
+    width: 100%;
+    display: flex;
+    color: white;
+    padding-top: 90px;
+}
+.img-main{
+    height: 500px;
+    width: 300px;
+    padding-bottom: 30px;
+}
+.home-img{
+    padding-left: 6.3rem;
+    margin-right: 5.7rem;
+}
+.home-contant{
+    padding-top: 11.1rem;
+    padding-left: 10.1rem;
+}
+.home-contant h3{
+ font-size: 2.rem;
+}
+.home-contant h1{
+    font-size: 3rem;
+}
+.home-contant h4{
+font-size: 25px;
+}
+.home-contant p{
+font-size: 18px;
+}
+.social-icon
+{
+    margin-top: 20px;
+}
+.social-icon a{
+    color: rgb(167, 35, 35);
+    border: 2px solid rgb(243, 233, 233);
+    border-radius: 30px;
+    padding: 8px;
+    margin-left: 16px;
+    display: inline;
+}
+.social-icon a:hover{
+    box-shadow: 0 0 0.6rem;
+    color: white;
+    background: red;
+}
+.bg-aboutme{
+    display: flex;
+    background-color: rgba(19, 14, 13, 0.905);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 18px;
+}
+.about-img{
+    padding-left: 8.1rem;
+}
+.about-contact{
+    box-sizing: border-box;
+    padding-left: 12px;
+    margin: 50px;
+}
+.about-contact h1{
+    font-size: 50px;
+    color: #0f0a0a;
+}
+.about-contact h2{
+    font-size: 28px;
+}
+.about-contact h3{
+    color: red;
+    font-size: 24px;
+}
+.about-contact p{
+    font-size: 20px;
+}
+.bg-skills{
+    background-color:#0d0c0ce3;
+    color: white;
+    padding-left: 17.9rem;
+    padding-top: 3rem;
+    padding-bottom: 100px;
+
+}
+.skill-name{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.skill-bar{
+    background-color: white;
+    height: 14px;
+    margin-left: 12px;
+    width: 600px;
+    border-radius: 3px;
+    color: #0f0a0a;
+    font-weight: 10px;
+}
+.skill-percentage{
+    background-color: red;
+    height: 15px;
+    border-radius: 3px;
+    position: relative;
+    animation: fillbars 2.5s 1;
+}
+.skill-percentage::before{
+    content: attr(per);
+    background-color: white;
+    height: 15px;
+    position: absolute;
+    border-radius: 3px;
+    font-size: 15px;
+    top: -38px;
+    right: 0;
+    transform: translateX(50%);
+    padding: 1px;
+}
+.skill-percentage::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 9px;
+    background-color: white;
+    top: -24px;
+    right: 0;
+    border-radius: 1px;
+    transform: translateX(50%) rotate(45deg);
+}
+@keyframes fillbars{
+    from{
+        width: 0;
+
+    }
+    to{
+        width: 100%;
+    }
+}
+.myskills{
+    padding-left: 35.9rem;
+    text-decoration: underline;
+    font-size: 3rem;
+    background-color: red;
+    color: white;
+}
+.skill{
+    padding-bottom: 12px;
+    height: 30px;
+}
+.footer{
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+}
+.footer-text{
+    padding-top:10px;
+    font-size: 20px;
+}
+.foot-icon a{
+    display: inline-flex;
+    font-size: 2.1rem;
+    color: rgb(124, 26, 26);
+    border: rgb(14, 1, 1) solid 2px;
+    border-radius: 19px;
+    text-decoration: none;
+}
+.loop-text-heading{
+    color: red;
+}
